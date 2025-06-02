@@ -32,7 +32,7 @@ response = client.chat.completions.create(
         messages=[
             {"role": "system", "content": """You are a helpful assistant that recognises complaint letters. 
              Please let us know if the letter is a complaint or not? Please response with True or False."""},
-            {"role": "user", "content": complaint_letter}
+            {"role": "user", "content": love_letter}
         ],
         temperature=0.7
     )
